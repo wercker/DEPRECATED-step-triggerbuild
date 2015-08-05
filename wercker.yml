@@ -1,0 +1,7 @@
+box: wercker/default
+build:
+  steps:
+    - wercker/triggerbuild:
+        applicationId: 557c0f7ff0c2c2a1440724f6
+        token: 64a03df8888409c48519c084dc513d1cd2417102e6433a15d6a42b9008f89ed6
+

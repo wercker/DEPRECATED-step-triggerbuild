@@ -1,5 +1,5 @@
 name: triggerbuild
-version: 0.1.0
+version: 0.1.1
 desription: Trigger a new build on a project.
 keywords:
   - build

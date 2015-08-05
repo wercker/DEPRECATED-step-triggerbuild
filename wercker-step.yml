@@ -1,0 +1,25 @@
+name: triggerbuild
+version: 0.1.0
+desription: Trigger a new build on a project.
+keywords:
+  - build
+  - triggerBuild
+properties:
+  applicationId:
+    type: string
+    required: true
+  token:
+    type: string
+    required: true
+  branch:
+    type: string
+    required: false
+  commitHash:
+    type: string
+    required: false
+  message:
+    type: string
+    required: false
+  envVars:
+    type: string
+    required: false

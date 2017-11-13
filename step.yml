@@ -1,0 +1,25 @@
+name: triggerbuild
+version: 0.2.0
+summary: Trigger a new build on a project.
+tags:
+  - build
+  - triggerBuild
+properties:
+- name: applicationId
+  type: string
+  required: true
+- name: token
+  type: string
+  required: true
+- name: branch
+  type: string
+  required: false
+- name: commitHash
+  type: string
+  required: false
+- name: message
+  type: string
+  required: false
+- name: envVars
+  type: string
+  required: false
